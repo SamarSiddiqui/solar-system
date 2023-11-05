@@ -6,7 +6,7 @@ let scndInput = document.getElementById('scnd-input')
 let butTon = document.getElementById('btn')
 
 document.body.appendChild(mainContainer)
-mainContainer.style.background = 'url(galaxy.jpg)'
+mainContainer.style.background = 'url(galaxy.webp)'
 mainContainer.style.backgroundSize = 'cover'
 mainContainer.style.backgroundPosition = 'center'
 mainContainer.style.height = '100vh'
@@ -105,7 +105,7 @@ h1Warning.style.marginLeft = '500px'
 h1Warning.style.textAlign = 'center'
 }else if (scndInput.value =='earth') {
 h1Warning.textContent = ''
-planetImg.src = 'earth-1.png'
+planetImg.src = 'earth-1.webp'
 planetImg.style.width = '400px '
 planetImg.style.height = '300px'
 planetImg.style.marginLeft = '50px'
@@ -136,7 +136,7 @@ inSide.textContent = `${weightCal(1)}`
 
 } else if (scndInput.value == 'jupiter'){
 h1Warning.textContent = ''
-planetImg.src = 'j5.png'
+planetImg.src = 'j5.webp'
 planetImg.style.width = '400px'
 planetImg.style.height = '300px'
 planetImg.style.marginLeft = '50px'
@@ -167,7 +167,7 @@ inSide.textContent = `${weightCal(2.34)}`
 
 } else if (scndInput.value == 'mars') {
 h1Warning.textContent = ''
-planetImg.src = 'm2.png'
+planetImg.src = 'm2.webp'
 planetImg.style.width = '400px'
 planetImg.style.height = '300px'
 planetImg.style.marginLeft = '50px'
@@ -198,7 +198,7 @@ inSide.textContent = `${weightCal(0.38)}`
   
 } else if (scndInput.value == 'mercury') {
 h1Warning.textContent = ''
-planetImg.src = 'mercury1.png'
+planetImg.src = 'mercury1.webp'
 planetImg.style.width = '400px'
 planetImg.style.height = '300px'
 planetImg.style.marginLeft = '50px'
@@ -229,7 +229,7 @@ inSide.textContent = `${weightCal(0.38)}`
 
 } else if (scndInput.value == 'saturn') {
 h1Warning.textContent = ''
-planetImg.src = 's2.png'
+planetImg.src = 's2.webp'
 planetImg.style.width = '350px'
 planetImg.style.height = '200px'
 planetImg.style.marginLeft = '50px'
@@ -260,7 +260,7 @@ inSide.textContent = `${weightCal(1.06)}`
 
 } else if (scndInput.value == 'venus') {
 h1Warning.textContent = ''
-planetImg.src = 'venus.png'
+planetImg.src = 'venus.webp'
 planetImg.style.width = '400px'
 planetImg.style.height = '300px'
 planetImg.style.marginLeft = '50px'
